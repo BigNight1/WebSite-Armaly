@@ -7,3 +7,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@keyframes scrollX {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollX_reverse {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-scrollX_30s_linear_infinite {
+  animation: scrollX 30s linear infinite;
+}
+
+.animate-scrollX_30s_linear_infinite_reverse {
+  animation: scrollX_reverse 30s linear infinite;
+}
