@@ -5,17 +5,17 @@ const Testimonials = () => {
     {
       name: "Juan Pérez",
       feedback: "Servicio excelente y rápido. Mi celular quedó como nuevo.",
-      image: "/Img-testimonio/cliente1.jpeg", // Actualiza esta ruta con la imagen correspondiente
+      image: "/Img-testimonio/cliente1.webp", // Actualiza esta ruta con la imagen correspondiente
     },
     {
       name: "María López",
       feedback: "Muy profesionales y amables. Totalmente recomendados.",
-      image: "/Img-testimonio/cliente2.jpeg", // Actualiza esta ruta con la imagen correspondiente
+      image: "/Img-testimonio/cliente2.webp", // Actualiza esta ruta con la imagen correspondiente
     },
     {
       name: "María López",
       feedback: "Muy profesionales y amables. Totalmente recomendados.",
-      image: "/Img-testimonio/cliente3.jpeg", // Actualiza esta ruta con la imagen correspondiente
+      image: "/Img-testimonio/cliente3.webp", // Actualiza esta ruta con la imagen correspondiente
     },
   ];
 

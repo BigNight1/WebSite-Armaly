@@ -1,4 +1,3 @@
-import AutoScrolling from "./Components/AutoScrolling";
 import Hero from "./Components/Hero";
 import Location from "./Components/Location";
 import NavBar from "./Components/NavBar.jsx";
@@ -19,7 +18,6 @@ function App() {
       <Location/>
       <Testimonials/>
       <FAQ/>
-      {/* <AutoScrolling/> */}
       <WhatsAppWidget 
         phoneNumber="+51924548268" 
         companyName="ArmalyCell"
