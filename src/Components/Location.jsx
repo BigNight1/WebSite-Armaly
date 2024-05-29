@@ -7,7 +7,7 @@ const Location = () => {
         <div className="max-w-screen-xl px-4 mx-auto lg:grid lg:grid-cols-12 lg:gap-8 lg:items-center">
           <div className="lg:col-span-7 lg:order-2 md:order-1 flex flex-col items-start space-y-8 md:w-full md:items-center md:py-4">
             <div className="w-full text-center">
-              <h3 className="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white mb-4 md:mb-6">
+              <h3 className="text-3xl sm:text-4xl md:text-5xl xl:text-5xl font-extrabold tracking-tight leading-none text-gray-900 dark:text-white mb-4 md:mb-6">
                 UBICADOS EN
               </h3>
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 w-full space-y-6">
@@ -25,7 +25,7 @@ const Location = () => {
                       UBICACIÓN:
                     </span>
                     <p className="text-gray-700 dark:text-gray-300">
-                      Av. San Luis 1859, San Borja 15021
+                      Av. San Luis 1859, San Borja 15021 - MultiMercado San Borja
                     </p>
                   </div>
                 </div>
