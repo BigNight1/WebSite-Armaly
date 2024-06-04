@@ -14,15 +14,15 @@ const successStories = [
   {
     title: "Recuperación de Datos de Laptop",
     description: "La laptop del cliente no arrancaba y tenía datos importantes. Recuperamos todos los datos y solucionamos el problema de arranque.",
-    beforeImage: "https://via.placeholder.com/800x400?text=Before",
-    afterImage: "https://via.placeholder.com/800x400?text=After",
+    beforeImage: "/AfterAndBefore/IphoneXBefore.jpg",
+    afterImage: "/AfterAndBefore/IphoneXAfter.jpg",
     testimonial: "Pensé que había perdido todo, pero lograron recuperar mis datos y arreglar mi laptop. - María López",
   },
   {
     title: "Reparación de Tablet Samsung",
     description: "La tablet tenía problemas con la batería y no cargaba correctamente. Reemplazamos la batería y ahora funciona sin problemas.",
-    beforeImage: "https://via.placeholder.com/800x400?text=Before",
-    afterImage: "https://via.placeholder.com/800x400?text=After",
+    beforeImage: "/AfterAndBefore/IphoneXBefore.jpg",
+    afterImage: "/AfterAndBefore/IphoneXAfter.jpg",
     testimonial: "Excelente servicio, mi tablet carga perfectamente ahora. - Carlos Ruiz",
   },
 ];
@@ -38,26 +38,26 @@ const SuccessStories = () => {
 
   return (
     <section className="bg-gray-50 dark:bg-gray-900 " id="Historias">
-      <div className="max-w-screen-xl mx-auto px-4">
+      <div className="max-w-screen-xl mx-auto px-8">
         <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white mb-8 text-center">Casos de Éxito</h2>
         <Slider {...settings}>
           {successStories.map((story, index) => (
             <div key={index} className="bg-white dark:bg-gray-800 rounded-lg shadow-md p-8">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">{story.title}</h3>
               <p className="text-gray-700 dark:text-gray-300 mb-4">{story.description}</p>
-              <div className="flex justify-between">
-                <div className="w-1/2 pr-4">
+              <div className="flex flex-col md:flex-row justify-between">
+                <div className="w-1/2 ">
                   <h4 className="text-gray-600 dark:text-gray-400 mb-2">Antes</h4>
                   <img
-                    className="w-auto h-[350px] rounded-lg shadow-lg"
+                    className="w-auto h-auto md:h-[450px] lg:h-[500px] rounded-lg shadow-lg"
                     src={story.beforeImage}
                     alt={`Before ${story.title}`}
                   />                
                 </div>
-                <div className="w-1/2 pl-4">
+                <div className="w-1/2 ">
                   <h4 className="text-gray-600 dark:text-gray-400 mb-2">Después</h4>
                   <img
-                    className="w-auto h-[350px] rounded-lg shadow-lg"
+                    className="w-auto h-auto md:h-[450px] lg:h-[500px] rounded-lg shadow-lg"
                     src={story.afterImage}
                     alt={`After ${story.title}`}
                   />                

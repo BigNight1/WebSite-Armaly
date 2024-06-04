@@ -2,13 +2,13 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-white dark:bg-gray-900" id="Home">
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <section className="bg-white dark:bg-gray-900 " id="Home">
+      <div className="grid max-w-screen-xl px-4 py-8 md:py-0  mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             Reparación de Celulares
           </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+          <p className="max-w-2xl mb-6 font-normal text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
             Reparación de celulares en Lima de cualquier marca y referencia.
             Tenemos repuestos 100% originales con mano de obra cualificada.
           </p>
@@ -34,8 +34,12 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="hidden lg:mt-0 lg:col-span-5 lg:flex bg-none justify-center items-center">
-          <img className="mx-auto" src="/phone-mockup.webp" alt="MockUp A21" />
+        <div className="lg:mt-0 lg:col-span-5 lg:flex justify-center items-center">
+          <img
+            className="mx-auto lg:order-2 order-1 py-8  md:w-[600px]"
+            src="/phone-mockup.webp"
+            alt="MockUp A21"
+          />
         </div>
       </div>
     </section>
