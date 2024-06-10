@@ -17,7 +17,7 @@ const SuccessStories = () => {
 
   return (
     <Element name="Historias">
-      <section className="bg-gray-50 dark:bg-gray-900 ">
+      <section className="bg-gray-50 dark:bg-gray-900 py-[80px]">
         <div className="max-w-screen-xl mx-auto px-8">
           <h2 className="text-3xl font-extrabold leading-tight text-gray-900 dark:text-white mb-8 text-center">
             Casos de Éxito
