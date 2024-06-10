@@ -1,0 +1,7 @@
+[
+    { "name": "Home", "to": "Home"},
+    { "name": "Servicios", "to": "services" },
+    { "name": "Historias", "to": "Historias" },
+    { "name": "Ubicación", "to": "Ubicación" },
+    { "name": "FAQ", "to": "faq-section" }
+  ]

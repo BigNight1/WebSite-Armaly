@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Reparación de Pantalla de iPhone X",
+    "description": "El cliente trajo su iPhone X con la pantalla completamente rota. Reemplazamos la pantalla con un repuesto original y ahora el teléfono funciona perfectamente.",
+    "beforeImage": "/AfterAndBefore/IphoneXBefore.jpg",
+    "afterImage": "/AfterAndBefore/IphoneXAfter.jpg",
+    "testimonial": "¡El servicio fue rápido y eficiente! Mi iPhone se ve como nuevo. - Juan Pérez"
+  },
+  {
+    "title": "Recuperación de Datos de Laptop",
+    "description": "La laptop del cliente no arrancaba y tenía datos importantes. Recuperamos todos los datos y solucionamos el problema de arranque.",
+    "beforeImage": "/AfterAndBefore/IphoneXBefore.jpg",
+    "afterImage": "/AfterAndBefore/IphoneXAfter.jpg",
+    "testimonial": "Pensé que había perdido todo, pero lograron recuperar mis datos y arreglar mi laptop. - María López"
+  },
+  {
+    "title": "Reparación de Tablet Samsung",
+    "description": "La tablet tenía problemas con la batería y no cargaba correctamente. Reemplazamos la batería y ahora funciona sin problemas.",
+    "beforeImage": "/AfterAndBefore/IphoneXBefore.jpg",
+    "afterImage": "/AfterAndBefore/IphoneXAfter.jpg",
+    "testimonial": "Excelente servicio, mi tablet carga perfectamente ahora. - Carlos Ruiz"
+  }
+]

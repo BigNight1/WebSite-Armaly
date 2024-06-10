@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Juan Pérez",
+    "review": "¡El servicio fue rápido y eficiente! Mi iPhone se ve como nuevo.",
+    "rating": 5
+  },
+  {
+    "name": "María López",
+    "review": "Pensé que había perdido todo, pero lograron recuperar mis datos y arreglar mi laptop.",
+    "rating": 4
+  },
+  {
+    "name": "Carlos Ruiz",
+    "review": "Excelente servicio, mi tablet carga perfectamente ahora.",
+    "rating": 5
+  }
+]

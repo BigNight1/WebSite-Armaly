@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Reparación de Celulares",
+    "description": "Reparación de todas las marcas y modelos de celulares con repuestos originales.",
+    "icon": "📱"
+  },
+  {
+    "title": "Reparación de Tablets",
+    "description": "Reparación de tablets, incluidos problemas de pantalla, batería y más.",
+    "icon": "📲"
+  },
+  {
+    "title": "Reparación de Laptops",
+    "description": "Reparación de hardware y software para todas las marcas de laptops.",
+    "icon": "💻"
+  },
+  {
+    "title": "Asesoramiento Técnico",
+    "description": "Asistencia para resolver cualquier problema técnico con sus dispositivos.",
+    "icon": "🛠️"
+  },
+  {
+    "title": "Venta de Accesorios",
+    "description": "Accesorios para todo tipo de dispositivos.",
+    "icon": "🔌"
+  },
+  {
+    "title": "Actualización de Software",
+    "description": "Actualización y optimización de software para mejorar el rendimiento de tus dispositivos.",
+    "icon": "🔧"
+  },
+  {
+    "title": "Rescate de Datos",
+    "description": "Recuperación de datos perdidos o eliminados de dispositivos dañados.",
+    "icon": "💾"
+  },
+  {
+    "title": "Configuración de Redes",
+    "description": "Configuración e instalación de redes Wi-Fi y otros servicios de conectividad.",
+    "icon": "🌐"
+  }
+]

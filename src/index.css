@@ -2,50 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-section{
+section {
   padding: 10rem 0;
 }
 
-@keyframes scrollX {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes scrollX_reverse {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-.animate-scrollX_30s_linear_infinite {
-  animation: scrollX 30s linear infinite;
-}
-
-.animate-scrollX_30s_linear_infinite_reverse {
-  animation: scrollX_reverse 30s linear infinite;
-}
-
 @media (max-width: 490px) {
-  section{
+  section {
     padding: 3rem 0;
   }
 }
 
 @media (min-width: 768px) {
-  section{
+  section {
     padding: 6rem 0;
   }
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #1d4ed8;
+  transition: transform 0.2s ease-out;
 }

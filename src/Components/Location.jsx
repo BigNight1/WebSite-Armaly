@@ -1,8 +1,10 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 const Location = () => {
   return (
-    <section className="bg-gray-100 dark:bg-gray-900" id="Ubicación">
+    <Element name="Ubicación">
+    <section className="bg-gray-100 dark:bg-gray-900">
       <div className="max-w-screen-xl px-4 mx-auto lg:grid lg:grid-cols-12 lg:gap-8 lg:items-center">
         <div className="lg:col-span-7 lg:order-2 md:order-1 flex flex-col items-start space-y-8 md:w-full md:items-center md:py-4">
           <div className="w-full text-center">
@@ -57,6 +59,7 @@ const Location = () => {
         </div>
       </div>
     </section>
+    </Element>
   );
 };
 
