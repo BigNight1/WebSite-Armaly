@@ -24,6 +24,7 @@ function App() {
       <Location />
       <CustomerReviews />
       <FAQ />
+      <Comments/>
       <Footer />
       <WhatsAppWidget
         phoneNumber="+51924548268"
@@ -31,7 +32,6 @@ function App() {
         message="Hola! ¿Cómo podemos ayudarte?"
         replyTimeText="Normalmente respondemos en unos minutos"
       />
-      <Comments/>
     </div>
   );
 }
