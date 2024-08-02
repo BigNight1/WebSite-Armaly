@@ -1,6 +1,6 @@
 import React from "react";
 
-const Comentarios = () => {
+const Comments = () => {
   return (
     <div>
       <div id="fb-root"></div>
@@ -12,9 +12,14 @@ const Comentarios = () => {
         nonce="EFDhRkcb"
       ></script>
 
-<div class="fb-comments" data-href="https://web-site-armaly.vercel.app/" data-width="" data-numposts="5"></div>
+      <div
+        class="fb-comments"
+        data-href="https://web-site-armaly.vercel.app/"
+        data-width=""
+        data-numposts="5"
+      ></div>
     </div>
   );
 };
 
-export default Comentarios;
+export default Comments;
