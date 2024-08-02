@@ -30,6 +30,7 @@ function App() {
         message="Hola! ¿Cómo podemos ayudarte?"
         replyTimeText="Normalmente respondemos en unos minutos"
       />
+      <Comentarios/>
     </div>
   );
 }

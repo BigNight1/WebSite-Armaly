@@ -1,23 +1,25 @@
 [
   {
-    "title": "Reparación de Pantalla de iPhone X",
-    "description": "El cliente trajo su iPhone X con la pantalla completamente rota. Reemplazamos la pantalla con un repuesto original y ahora el teléfono funciona perfectamente.",
-    "beforeImage": "/AfterAndBefore/IphoneXBefore.jpg",
-    "afterImage": "/AfterAndBefore/IphoneXAfter.jpg",
-    "testimonial": "¡El servicio fue rápido y eficiente! Mi iPhone se ve como nuevo. - Juan Pérez"
+    "title": "Reparación de Pantalla de IPhone X",
+    "description": "El cliente trajo su IPhone X con la pantalla completamente rota. Reemplazamos la pantalla con un repuesto original y ahora el teléfono funciona perfectamente.",
+    "beforeImage": "/AfterAndBefore/IphoneXBefore.webp",
+    "afterImage": "/AfterAndBefore/IphoneXAfter.webp",
+    "testimonial": "¡El servicio fue rápido y eficiente! Mi iPhone se ve como nuevo."
   },
   {
-    "title": "Recuperación de Datos de Laptop",
-    "description": "La laptop del cliente no arrancaba y tenía datos importantes. Recuperamos todos los datos y solucionamos el problema de arranque.",
-    "beforeImage": "/AfterAndBefore/IphoneXBefore.jpg",
-    "afterImage": "/AfterAndBefore/IphoneXAfter.jpg",
-    "testimonial": "Pensé que había perdido todo, pero lograron recuperar mis datos y arreglar mi laptop. - María López"
+    "title": "Reparación de Pantalla de A04e",
+    "description": "El cliente trajo su Samsung Galaxy A04e con la pantalla rota. Reemplazamos la pantalla con una original y el teléfono volvió a funcionar perfectamente.",
+    "beforeImage": "/AfterAndBefore/beforeA04.webp",
+    "afterImage": "/AfterAndBefore/afterA04.webp",
+    "testimonial": "La pantalla de mi Galaxy A04e quedó como nueva. ¡Un servicio rápido y profesional sin perder ningún dato!"
   },
   {
-    "title": "Reparación de Tablet Samsung",
-    "description": "La tablet tenía problemas con la batería y no cargaba correctamente. Reemplazamos la batería y ahora funciona sin problemas.",
-    "beforeImage": "/AfterAndBefore/IphoneXBefore.jpg",
-    "afterImage": "/AfterAndBefore/IphoneXAfter.jpg",
-    "testimonial": "Excelente servicio, mi tablet carga perfectamente ahora. - Carlos Ruiz"
+    
+      "title": "Reparación de Zócalo de Carga Rápida en Samsung A50",
+      "description": "El Samsung A50 tenía problemas con el zócalo de carga, mostrando alertas de alta temperatura. Cambiamos el zócalo por uno compatible con carga rápida y ahora el celular carga sin problemas.",
+      "beforeImage": "/AfterAndBefore/before-temperature.webp",
+      "afterImage": "/AfterAndBefore/after-temperature.webp",
+      "testimonial": "Excelente servicio, mi celular ahora carga rápidamente y sin problemas de temperatura."
+  
   }
 ]
