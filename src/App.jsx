@@ -10,21 +10,19 @@ import SuccessStories from "./Components/SuccessStories/SuccessStories.jsx";
 import WhyUs from "./Components/WhyUs/WhyUs.jsx";
 import CustomerReviews from "./Components/CustomerReview/CustomerReviews.jsx";
 import RepairSection from "./Components/RepairSection";
-import Comments from "./Components/Comentarios/Comments";
 
 function App() {
   return (
     <div>
       <NavBar />
       <Hero />
-      <RepairSection/>
-      <WhyUs/>
+      <RepairSection />
+      <WhyUs />
       <Services />
       <SuccessStories />
       <Location />
       <CustomerReviews />
       <FAQ />
-      <Comments/>
       <Footer />
       <WhatsAppWidget
         phoneNumber="+51924548268"
