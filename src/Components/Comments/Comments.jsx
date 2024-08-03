@@ -29,7 +29,7 @@ const Comments = () => {
   return (
     <div className="flex justify-center">
       <div id="fb-root"></div>
-      <div className="fb-comments" data-href="https://web-site-armaly.vercel.app/" data-width="" data-numposts="5" colorscheme="dark"></div>
+      <div className="fb-comments" data-href="https://web-site-armaly.vercel.app/" data-width="" data-numposts="5" data-colorscheme="dark"></div>
     </div>
   );
 };
