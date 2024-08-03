@@ -27,9 +27,9 @@ const Comments = () => {
   }, []);
 
   return (
-    <div>
+    <div className="flex justify-center">
       <div id="fb-root"></div>
-      <div className="fb-comments" data-href="https://web-site-armaly.vercel.app/" data-width="" data-numposts="5"></div>
+      <div className="fb-comments" data-href="https://web-site-armaly.vercel.app/" data-width="" data-numposts="5" colorscheme="dark"></div>
     </div>
   );
 };
