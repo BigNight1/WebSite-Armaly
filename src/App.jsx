@@ -10,6 +10,7 @@ import SuccessStories from "./Components/SuccessStories/SuccessStories.jsx";
 import WhyUs from "./Components/WhyUs/WhyUs.jsx";
 import CustomerReviews from "./Components/CustomerReview/CustomerReviews.jsx";
 import RepairSection from "./Components/RepairSection";
+import Comments from "./Components/Comments/Comments";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <SuccessStories />
       <Location />
       <CustomerReviews />
+      <Comments/>
       <FAQ />
       <Footer />
       <WhatsAppWidget
