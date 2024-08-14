@@ -23,8 +23,8 @@ function App() {
       <SuccessStories />
       <Location />
       <CustomerReviews />
-      <Comments/>
       <FAQ />
+      <Comments/>
       <Footer />
       <WhatsAppWidget
         phoneNumber="+51924548268"
