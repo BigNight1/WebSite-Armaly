@@ -7,7 +7,11 @@ export default {
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        OpenSans : ["Open Sans", "sans-serif"]
+      }
+    },
   },
   plugins: [
     require('flowbite/plugin')

@@ -10,7 +10,6 @@ import SuccessStories from "./Components/SuccessStories/SuccessStories.jsx";
 import WhyUs from "./Components/WhyUs/WhyUs.jsx";
 import CustomerReviews from "./Components/CustomerReview/CustomerReviews.jsx";
 import RepairSection from "./Components/RepairSection";
-import Comments from "./Components/Comments/Comments";
 
 function App() {
   return (
@@ -24,11 +23,10 @@ function App() {
       <Location />
       <CustomerReviews />
       <FAQ />
-      <Comments/>
       <Footer />
       <WhatsAppWidget
         phoneNumber="+51924548268"
-        companyName="ArmalyCell"
+        companyName="Armalytech"
         message="Hola! ¿Cómo podemos ayudarte?"
         replyTimeText="Normalmente respondemos en unos minutos"
       />

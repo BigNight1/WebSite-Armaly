@@ -15,10 +15,10 @@ const Navbar = () => {
           <img
             src="/logo.webp"
             className="h-10 rounded-full"
-            alt="ArmalyCell Logo"
+            alt="Armalytech Logo"
           />
-          <span className="self-center text-2xl font-semibold dark:text-white">
-            ArmalyCell
+          <span className="self-center text-2xl dark:text-white font-extrabold font-OpenSans uppercase">
+            Armalytech
           </span>
         </a>
         <button

@@ -49,10 +49,10 @@ const Location = () => {
         </div>
         <div className="lg:col-span-5 lg:order-1 md:order-2 flex justify-center items-center">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.387310855415!2d-76.99921862410433!3d-12.085615942627024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7cd19f14c7b%3A0x4f173a57e06cf062!2sAv.%20San%20Luis%201859%2C%20San%20Borja%2015021!5e0!3m2!1ses-419!2spe!4v1695184499992!5m2!1ses-419!2spe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d289.9719361859796!2d-76.99659845096025!3d-12.085994834346701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c766de68b979%3A0x2e06fa302ff6b50!2sArmalytech!5e0!3m2!1ses-419!2spe!4v1731759574355!5m2!1ses-419!2spe"
             width="100%"
             height="400"
-            className="rounded-lg shadow-lg xl:transition xl:transform xl:hover:scale-105"
+            className="rounded-lg shadow-lg "
             loading="lazy"
             title="Mapa"
           />
