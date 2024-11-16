@@ -16,7 +16,7 @@ const SuccessItem = ({ index, title, description, beforeImage, afterImage, testi
         <div className="flex flex-col items-center w-full md:w-1/2 mb-4 md:mb-0">
           <h4 className="text-gray-600 font-semibold dark:text-gray-400 mb-2">Antes</h4>
           <img
-            className="w-auto h-auto md:h-[450px] lg:h-[500px] rounded-lg shadow-lg"
+            className="w-auto md:h-[450px] lg:h-[500px] rounded-lg shadow-lg h-[400px]"
             src={beforeImage}
             alt={`Before ${title}`}
           />
@@ -24,7 +24,7 @@ const SuccessItem = ({ index, title, description, beforeImage, afterImage, testi
         <div className="flex flex-col items-center w-full md:w-1/2">
           <h4 className="text-gray-600 font-semibold dark:text-gray-400 mb-2">Después</h4>
           <img
-            className="w-auto h-auto md:h-[450px] lg:h-[500px] rounded-lg shadow-lg"
+            className="w-auto md:h-[450px] lg:h-[500px] rounded-lg shadow-lg"
             src={afterImage}
             alt={`After ${title}`}
           />
