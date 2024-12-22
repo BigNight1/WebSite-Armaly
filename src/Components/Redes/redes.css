@@ -1,0 +1,65 @@
+.fondo {
+  background-image: url("/petalos.svg"), url("/arbol.jpg");
+  background-size: cover, cover; /* Ajusta cada imagen */
+
+}
+
+.Box_Redes {
+  max-width: 650px;
+  margin: auto;
+}
+.principal {
+  background-color: blue;
+}
+
+
+.Logo-Description {
+  text-align: center;
+}
+.sub-description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  font-family: serif;
+}
+.color-titulo {
+  font-size: 24px;
+  color: #a61e4d;
+  font-weight: 600;
+}
+.box-redes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.caja-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: #f88fb4;
+  text-decoration: none; 
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  font-family: serif;
+  border-radius: 8px; 
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.caja-redes:hover {
+  transform: scale(1.05); 
+  background-color: #e070a1; 
+}
+
+.redes {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  font-family: serif;
+}
