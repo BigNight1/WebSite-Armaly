@@ -8,23 +8,25 @@ const Redes = () => {
       <div className="Box_Redes">
         <div className="text-center">
           <div className="flex justify-center">
-            <img
-              src="https://taplink.st/a/8/2/3/8/b75e4c.jpg?3"
-              alt="Logo"
-              className="h-[125px] rounded-full "
-            />
+            <a href="/" rel="noopener noreferrer">
+              <img
+                src="/logoarmaly.webp"
+                alt="Logo de armalytech"
+                className="h-[125px] rounded-full "
+              />
+            </a>
           </div>
 
           <div className="sub-description">
-            <h3 className="color-titulo">SAMYS POP</h3>
-            <span className="text-[#5d0f26]">Funko Pops en porcelana fria</span>
-            <span className="text-[#5d0f26]">Lima - Peru</span>
+            <h3 className="color-titulo">ARMALYTECH</h3>
+            <span className="text-white">Servicio tecnico de celulares</span>
+            <span className="text-white">Lima - Peru</span>
           </div>
         </div>
         <div className="box-redes">
           {/* Enlace a Instagram */}
           <a
-            href="https://www.instagram.com/" /* Cambia por la URL de Instagram */
+            href="https://www.instagram.com/armalytech/" /* Cambia por la URL de Instagram */
             target="_blank"
             rel="noopener noreferrer"
             className="caja-redes"
@@ -40,6 +42,14 @@ const Redes = () => {
             className="caja-redes"
           >
             WHATSAPP
+          </a>
+          <a
+            href="https://www.tiktok.com/@armalytech" /* Cambia por la URL de Instagram */
+            target="_blank"
+            rel="noopener noreferrer"
+            className="caja-redes"
+          >
+            TIKTOK
           </a>
         </div>
         {/* PREGUNTAS Y RESPUESTAS  */}

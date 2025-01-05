@@ -1,14 +1,17 @@
 import { Route, Routes } from "react-router-dom";
-import NavBar from "./Components/Navbar/NavBar.jsx";
 import Home from "./Components/Home/Home.jsx";
+import Terms from "./Components/Terms/Terms.jsx";
+import Redes from "./Components/Redes/Redes.jsx";
+import PageError from "./Components/PageError/PageError.jsx";
 
 function App() {
   return (
     <div >
-      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="*" element={<h1>No existe la pagina</h1>} />
+        <Route path="/terminos-y-condiciones" element={<Terms />} />
+        <Route path="/redes" element={<Redes />} />
+        <Route path="*" element={<PageError/>} />
       </Routes>
     </div>
   );

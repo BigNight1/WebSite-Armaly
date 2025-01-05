@@ -13,8 +13,8 @@ const Navbar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
-            src="/logo.webp"
-            className="h-10 rounded-full"
+            src="/logoarmaly.webp"
+            className="h-20 rounded-full"
             alt="Armalytech Logo"
           />
           <span className="self-center text-2xl dark:text-white font-extrabold font-OpenSans uppercase">

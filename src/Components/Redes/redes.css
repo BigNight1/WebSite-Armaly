@@ -1,12 +1,12 @@
 .fondo {
-  background-image: url("/petalos.svg"), url("/arbol.jpg");
-  background-size: cover, cover; /* Ajusta cada imagen */
-
+  
+background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
 }
 
 .Box_Redes {
   max-width: 650px;
   margin: auto;
+  padding: 1rem 0;
 }
 .principal {
   background-color: blue;
@@ -24,7 +24,7 @@
 }
 .color-titulo {
   font-size: 24px;
-  color: #a61e4d;
+  color: white;
   font-weight: 600;
 }
 .box-redes {

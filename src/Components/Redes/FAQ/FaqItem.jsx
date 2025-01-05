@@ -6,8 +6,8 @@ const FaqItem = ({ index, question, answer }) => {
       key={index}
       className="p-4  rounded-lg cursor-pointer	"
     >
-      <summary className="font-medium dark:text-[#5D0F26]">{question}</summary>
-      <p className="mt-2 dark:text-[#5D0F26]">{answer}</p>
+      <summary className="font-medium dark:text-white">{question}</summary>
+      <p className="mt-2 dark:text-white">{answer}</p>
     </details>
   );
 };
